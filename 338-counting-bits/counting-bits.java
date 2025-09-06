@@ -1,5 +1,7 @@
 class Solution {
     public int[] countBits(int n){
+
+        // Using DP
         if(n==0)
             return new int[]{0};
         if(n==1)
